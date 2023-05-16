@@ -1,3 +1,15 @@
 .pessoa{
     border-radius: 50%;
+        max-width:300px;
+        max-height:300px;
+        width: auto;
+        height: auto;
+}
+
+.relatorio {
+    text-align: start;
+}
+
+.relatorio  h2 {
+    text-align: center;
 }
