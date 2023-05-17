@@ -186,10 +186,41 @@ input, select, textarea {
 /* Container */
 
 	.container {
+		display: flex;
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
 	}
+
+	.container article {
+		width: 100%;
+	}
+	.content {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		max-width: 100%;
+		width: 700px;
+	}
+
+	.content article {
+		width: 100%;
+	}
+
+	.conteudo-lateral {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 20em;
+	}
+	.box {
+		display:inline-block;
+		margin: 0px 20px 0px 0px;
+		max-width: 120px;
+		max-height: 120px;
+	}
+	
+
+
 
 		@media screen and (max-width: 1680px) {
 
@@ -2672,9 +2703,8 @@ input, select, textarea {
 
 /* Banner */
 
-
 	#banner {
-		background-image: url(../../images/pexels-visit-greenland-360912.jpg); /* Imagem do banner */
+		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2725,6 +2755,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background: #fff;
+			display: flex;
 		}
 
 		.wrapper.style2 {
@@ -2859,9 +2890,7 @@ input, select, textarea {
 
 		/* Header */
 
-			#header {
-				padding: 2em 0 0 0;
-			}
+		
 
 				#header h1 {
 					padding: 0 0 1.75em 0;
@@ -3358,3 +3387,5 @@ input, select, textarea {
 			}
 
 	}
+
+		/* 
