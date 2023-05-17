@@ -6,10 +6,20 @@
         height: auto;
 }
 
-.relatorio {
-    text-align: start;
+.relatorio p {
+    padding: 0;
+    margin: 0;
 }
 
-.relatorio  h2 {
+.rpp1 h2, .rpp1 p {
     text-align: center;
+}
+
+.rpp2 h3, .rpp2 p{
+    padding-left: 10px;
+    
+} 
+
+.rpp2 ul, .rpp2 li {
+    list-style: none;
 }
