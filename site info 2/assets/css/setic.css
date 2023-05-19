@@ -4,9 +4,9 @@
     flex-direction: column;
 }
 
-/* .row p, h2 {
+.row p, h2 {
     margin-bottom: 0px;
-} */
+}
 
 p {
     padding-top: 0px;
