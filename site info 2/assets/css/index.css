@@ -1,0 +1,42 @@
+.numeros p {
+    padding: 0;
+    margin: 0;
+    max-width: 300px;
+    height: auto;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 700;
+}
+/* .container {
+    text-align: center;
+} */
+
+/* .alunos p{
+    background-color: aqua;
+}
+
+.professores p {
+    background-color: aquamarine;
+}
+
+.concorrencia p {
+    background-color: aqua;
+}
+
+.projetos p {
+    background-color: aquamarine;
+}
+
+.porcentagemdoifrn p {
+    background-color: aqua;
+} */
+
+.numeros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    text-align: center;
+}
