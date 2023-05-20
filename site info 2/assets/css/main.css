@@ -3358,3 +3358,35 @@ input, select, textarea {
 			}
 
 	}
+
+/* INDEX STYLE IMG */
+.pessoa{
+    border-radius: 30%;
+        max-width:300px;
+        max-height:300px;
+        width: 98%;
+        height: auto;
+}
+/* INDEX STYLE IMG */
+
+/* RPP STYLE */
+.resumo{
+	text-align: center;
+}
+
+.rpp1 h2, .rpp1 p {
+    text-align: center;
+}
+
+.orientacoes {
+	padding-left: 20px;
+}
+
+.orientacoes p {
+	margin: 0%;
+}
+
+.listaRPP {
+    list-style: none;
+}
+/* RPP STYLE */

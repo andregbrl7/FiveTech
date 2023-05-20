@@ -4,7 +4,7 @@
     max-width: 300px;
     height: auto;
     font-size: 30px;
-    padding: 10px;
+    padding: 0px 25px 10px 25px;
     font-weight: 700;
 }
 /* .container {
@@ -39,4 +39,9 @@
 
 .wrapper {
     text-align: center;
+}
+
+/* Colocando efeito de Reveal*/
+.numerosTitulo, .numeros {
+    visibility: hidden;
 }
