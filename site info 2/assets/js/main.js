@@ -71,6 +71,5 @@
 
 window.sr = ScrollReveal({ reset: true });
 
-sr.reveal('.numerosTitulo', {duration: 1000});
-sr.reveal('.numeros', { duration: 2000 });
-sr.reveal('.reveal', { duration: 2000 });
+sr.reveal('.numerosTitulo', {duration: 2000});
+sr.reveal('.numeros', { duration: 4000 });
