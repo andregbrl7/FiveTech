@@ -3370,8 +3370,10 @@ input, select, textarea {
 /* INDEX STYLE IMG */
 
 /* RPP STYLE */
-.resumo{
-	text-align: center;
+.titulorpp{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .rpp1 h2, .rpp1 p {
@@ -3392,3 +3394,26 @@ input, select, textarea {
 /* RPP STYLE */
 
 /* DOCENTES SYLE */
+
+
+/* SETIC STYLE */
+.titulosetic {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* .wrapper.style1 {
+	padding-top: 25px;
+} */
+
+
+/* SETIC STYLE */
+
+/* PROJETOS STYLE*/
+
+.projetos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

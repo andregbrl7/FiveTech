@@ -2582,7 +2582,7 @@ input, select, textarea {
 
 	#nav {
 		cursor: default;
-		background-color: #2f9e41;
+		background-color: #2dd351; /*Cor da barra de navegação*/
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
@@ -2595,7 +2595,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			height: 0.75em;
-			background-color: #37c0fb;
+			background-color: #ffffff; /*LINHA DO NAVBAR */
 			background-image: url("images/bg01.png");
 		}
 
@@ -2642,7 +2642,7 @@ input, select, textarea {
 						bottom: -0.5em;
 						left: 50%;
 						margin-left: -0.375em;
-						background-color: #37c0fb;
+						background-color: #ffffff; /*LINHA DO NAVBAR */
 						background-image: url("images/bg01.png");
 					}
 
@@ -3388,4 +3388,10 @@ input, select, textarea {
 
 	}
 
-		/* 
+		/*  */
+
+/* STYLE CURSO */
+
+.materia li{
+	list-style: none;
+}
