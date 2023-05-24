@@ -2734,8 +2734,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #cfcfcf;
-			/* background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png"); */
+			background-color: #fff;
+			background-image: url("images/b	g02.png"), url("images/bg03.png"), url("images/bg01.png"); 
 			background-position: top left,						bottom left,					top left;
 			background-size: 100% 6em,						100% 6em,						auto;
 			background-repeat: no-repeat,						no-repeat,						repeat;
@@ -3473,3 +3473,15 @@ input, select, textarea {
 }
  */
 
+
+ /* CURSO STYLE */
+
+ .curso-ficha {
+	display: flex;
+	flex-direction: column;
+ }
+
+ .info {
+	display: flex;
+	justify-content: space-around;
+ }
