@@ -2556,7 +2556,7 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png"); */
-		padding: 0;
+		padding-bottom: 20px; /* PADDING DA NAVEGACAO */
 		display: flex;
 		justify-content: space-around;
 		
@@ -2584,7 +2584,7 @@ input, select, textarea {
 			}
 
 				#nav > ul > li a {
-					color: black;
+					color: black; /*Cor dos links da navegacao*/
 					text-decoration: none;
 					border: 0;
 					display: block;
@@ -2596,12 +2596,12 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover a {
-					color: #fff;
+					color: #25d63c; /*Cor dos houvers dos links da navegacao*/
 				}
 
 				#nav > ul > li.current {
 					font-weight: 600;
-					border-bottom: 1px solid black;
+					border-bottom: 3px solid #25d63c; /*Cor da linha da navegacao*/
 				}
 
 					/* #nav > ul > li.current:before {
@@ -2617,16 +2617,16 @@ input, select, textarea {
 						bottom: -0.01em;
 						left: 50%;
 						margin-left: -0.375em;
-						background-color: #2dd351; /*LINHA DO NAVBAR */
+						background-color: #2dd351;
 						/*background-image: url("images/bg01.png");
 					} */
 
 					#nav > ul > li.current a {
-						color: #000000;
+						color: #000000; /*Cor dos links quando estão no current */
 					}
 
 				#nav > ul > li.active a {
-					color: #fff;
+					color: #72ce7e; /*Cor do link curso quando está ativado */
 				}
 
 				#nav > ul > li.active.current:before {
@@ -3368,11 +3368,28 @@ input, select, textarea {
 /* INDEX STYLE IMG */
 .pessoa{
     border-radius: 30%;
-        max-width:300px;
-        max-height:300px;
-        width: 98%;
-        height: auto;
+    max-width:300px;
+    max-height:300px;
+    width: 98%;
+    height: auto;
 }
+
+.tituloinfonumeros {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.containerinfonumeros h2 {
+	margin: 0px;
+}
+
+#nav img {
+	height: 100px;
+	margin-top: 20px;
+}
+
+/*sla*/
+
 /* INDEX STYLE IMG */
 
 /* RPP STYLE */
@@ -3386,21 +3403,14 @@ input, select, textarea {
     text-align: center;
 }
 
-.orientacoes {
-	padding-left: 20px;
+.orientacoes h3{
+	padding-top: 20px;
 }
 
 .orientacoes p {
 	margin: 0%;
 }
 
-/* .orientacoes h3 {
-	padding: 20px;
-} */
-
-.listaRPP {
-    list-style: none;
-}
 /* RPP STYLE */
 
 /* DOCENTES SYLE */
@@ -3411,19 +3421,13 @@ input, select, textarea {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	
 }
 
-/* .wrapper.style1 {
-	padding-top: 25px;
-} */
 
-
-/* SETIC STYLE */
 .seticassunto ul{
 	list-style: none;
 }
-
-
 
 
 /* SETIC STYLE */
