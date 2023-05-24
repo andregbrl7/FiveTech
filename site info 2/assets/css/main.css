@@ -3417,3 +3417,23 @@ input, select, textarea {
 	flex-direction: column;
 	align-items: center;
 }
+
+/* PROJETOS STYLE*/
+
+/* DOCENTES STYLE */
+
+.professor {
+	/* background-color: blue; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 25px;
+	
+	
+}
+.professores {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
