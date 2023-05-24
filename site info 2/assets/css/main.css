@@ -3385,7 +3385,20 @@ input, select, textarea {
 
 #nav img {
 	height: 100px;
+	width: 100px;
 	margin-top: 20px;
+}
+
+.infoemnumeros {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.numero {
+	/* border: solid 1px black; */
+	min-height: 200px;
+	padding: 0px;
 }
 
 /*sla*/
@@ -3428,8 +3441,6 @@ input, select, textarea {
 .seticassunto ul{
 	list-style: none;
 }
-
-
 /* SETIC STYLE */
 
 /* PROJETOS STYLE*/
