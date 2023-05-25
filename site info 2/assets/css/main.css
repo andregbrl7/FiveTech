@@ -3499,4 +3499,5 @@ input, select, textarea {
  .info {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
  }
