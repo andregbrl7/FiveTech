@@ -2583,11 +2583,13 @@ input, select, textarea {
 	#nav {
 		cursor: default;
 		background-color: #ffffff; /*Cor da barra de navegação*/
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-		padding: 0;
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png"); */
+		padding-bottom: 20px; /* PADDING DA NAVEGACAO */
+		display: flex;
+		justify-content: space-around;
 	}
 
 		/* #nav:after {
@@ -2597,7 +2599,7 @@ input, select, textarea {
 			height: 0.75em;
 			background-color: #2dd351; /*LINHA DO NAVBAR */
 			/* background-image: url("images/bg01.png"); */
-		} */
+		/*}*/ 
 
 		#nav > ul {
 			margin: 0;
@@ -2643,8 +2645,8 @@ input, select, textarea {
 						left: 50%;
 						margin-left: -0.375em;
 						background-color: #2dd351; /*LINHA DO NAVBAR */
-						background-image: url("images/bg01.png");
-					} */
+						/*background-image: url("images/bg01.png");*/
+					/*} */
 
 					#nav > ul > li.current a {
 						color: #fff;
