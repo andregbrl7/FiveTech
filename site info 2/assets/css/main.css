@@ -3433,9 +3433,15 @@ input, select, textarea {
 	padding: 0px;
 }
 
+.box.highlight.box-turmas {
+	padding: 0px;
+	text-align: center;
+}
 
+.col-6.col-12-narrower.ifnumeros {
 
-/*sla*/
+	padding: 0px;
+}
 
 /* INDEX STYLE IMG */
 
