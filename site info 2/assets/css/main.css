@@ -3481,6 +3481,53 @@ input, select, textarea {
 .seticassunto ul{
 	list-style: none;
 }
+
+.container.seticanos {
+	display: flex;
+	flex-direction: column;
+}
+
+.imagem img {
+	width: 500px;
+	height: 350px;
+	padding: 20px;
+
+	border-radius: 20%;
+}
+
+.imagens {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.wrapper.style2.setic {
+	padding-bottom: 0px;
+}
+
+.wrapper.style1.seticoisas {
+	padding-top: 20px;
+}
+
+.wrapper.style1.imgsetic {
+	padding: 0px;
+	text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+
+.imagem img {
+	width: 350px;
+	height: 250px; 
+
+
+}
+}
+
+
+
+
+
 /* SETIC STYLE */
 
 /* PROJETOS STYLE*/
@@ -3558,6 +3605,7 @@ input, select, textarea {
 	text-align: center;
  } */
 
+ /*STYLE FOOTER */
 
  footer {
 	
@@ -3593,4 +3641,25 @@ input, select, textarea {
 	  .social-media a:hover {
 		color: #555;
 	  }
+
+.wrapper.style3.footer {
+	margin-bottom: 0px;
+}
+
+	  /* html, body, div, span, applet, object,
+	  iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+	  pre, a, abbr, acronym, address, big, cite,
+	  code, del, dfn, em, img, ins, kbd, q, s, samp,
+	  small, strike, strong, sub, sup, tt, var, b,
+	  u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+	  form, label, legend, table, caption, tbody,
+	  tfoot, thead, tr, th, td, article, aside,
+	  canvas, details, embed, figure, figcaption,
+	  footer, header, hgroup, menu, nav, output, ruby,
+	  section, summary, time, mark, audio, video {
+		font-family: 'Inter',sans-serif;
+		font-size: 1.1rem;
+	  }
  
+
+	     */
