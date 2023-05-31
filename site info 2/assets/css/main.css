@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+.artigo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 /* Basic */
 
 	html {
@@ -189,6 +194,16 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
+		gap: 10%;
+		justify-content: center;
+	}
+	.container .ficha-tecnica{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	p.ficha-tecnica{
+		margin-bottom: 20%;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -235,8 +250,17 @@ input, select, textarea {
 
 			.container {
 				width: 100%;
+				flex-direction: column;
+				
 			}
 
+			p.ficha-tecnica{
+				margin-bottom: 10px;
+			}
+
+			h4.semi-titulo{
+				margin-bottom: 1%;
+			}
 		}
 
 /* Row */
@@ -1954,6 +1978,10 @@ input, select, textarea {
 
 /* Section/Article */
 
+.semi-titulo{
+	margin-bottom: 10%;
+}
+
 	section.special, article.special {
 		text-align: center;
 	}
@@ -2742,7 +2770,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: hsl(198, 50%, 71%);
+			background-color: #68b92c;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -3376,12 +3404,13 @@ input, select, textarea {
 }
 
 .tituloinfonumeros {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 90px;
+	padding-bottom: 40px;
 }
 
 .containerinfonumeros h2 {
 	margin: 0px;
+	
 }
 
 #nav img {
@@ -3394,6 +3423,8 @@ input, select, textarea {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	padding-top: 100px;
+	padding-bottom: 70px;
 }
 
 .numero {
@@ -3401,6 +3432,8 @@ input, select, textarea {
 	min-height: 200px;
 	padding: 0px;
 }
+
+
 
 /*sla*/
 
@@ -3492,6 +3525,18 @@ input, select, textarea {
 
  /* CURSO STYLE */
 
+ .materias {
+	display: flex;
+	flex-direction: column;
+ }
+
+/* .container.curso {
+	text-align: center;
+} */
+
+
+
+
  /* .curso-ficha {
 	display: flex;
 	flex-direction: column;
@@ -3506,3 +3551,40 @@ input, select, textarea {
  h2 {
 	text-align: center;
  } */
+
+
+ footer {
+	
+		background-color: #68b92c;
+		padding: 20px;
+		color: #333;
+	  }
+	  
+	  .container {
+		max-width: 960px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+	  }
+	  
+	  .footer-left h3 {
+		margin-top: 0;
+	  }
+	  
+	  .footer-left p {
+		margin-bottom: 10px;
+	  }
+	  
+	  .footer-right p {
+		margin-bottom: 10px;
+	  }
+	  
+	  .social-media a {
+		margin-right: 10px;
+		color: #333;
+	  }
+	  
+	  .social-media a:hover {
+		color: #555;
+	  }
+ 
