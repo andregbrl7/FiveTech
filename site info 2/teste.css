@@ -1,0 +1,15 @@
+.total {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.informacoes {
+    max-width: 700px;
+}
+
+.conteudo-lateral.info {
+    display: flex;
+}
+.box {
+    padding: 20px;
+}
